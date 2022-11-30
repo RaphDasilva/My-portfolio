@@ -16,7 +16,7 @@
   padding-top: 20px;
 }
 
-.nav-item h1 {
+.nav-item a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -24,6 +24,7 @@
   line-height: 28px;
   color: #28352f;
   padding: 10px 12px;
+  text-decoration: none;
 }
 
 .nav-item2 img {
@@ -44,7 +45,7 @@
   background-position: center top;
 }
 
-.first-welcome-text {
+.first-welcome-text h1{
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -57,6 +58,7 @@
 
 #color-green {
   color: #36b37e;
+  display: block;
 }
 
 .second-welcome-text {
@@ -76,4 +78,5 @@
   justify-content: center;
   align-content: center;
   gap: 19.01px;
+  list-style: none;
 }
