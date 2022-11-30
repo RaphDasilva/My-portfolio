@@ -80,3 +80,7 @@
   gap: 19.01px;
   list-style: none;
 }
+
+#social-icons li a{
+  text-decoration: none;
+}
