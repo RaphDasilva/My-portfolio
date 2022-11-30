@@ -45,7 +45,7 @@
   background-position: center top;
 }
 
-.first-welcome-text h1{
+.first-welcome-text h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -81,6 +81,6 @@
   list-style: none;
 }
 
-#social-icons li a{
+#social-icons li a {
   text-decoration: none;
 }
