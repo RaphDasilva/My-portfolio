@@ -220,7 +220,7 @@
   padding-bottom: 16px;
 }
 
-.skills div {
+.skills li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -230,6 +230,7 @@
   padding: 8px;
   background: #ebf0ee;
   border-radius: 4px;
+  list-style: none;
 }
 
 .button {
