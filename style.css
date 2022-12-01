@@ -245,13 +245,17 @@
 }
 
 .my-resume {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
   padding: 12px;
   width: 159px;
   height: 48px;
   background: #36b37f;
   border-radius: 4px;
-  margin: auto;
+  border: 1px solid #D0D9D4;
+  margin-left: 30%;
 }
+
 
 .my-resume p {
   font-family: 'Inter', sans-serif;
