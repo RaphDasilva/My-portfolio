@@ -183,12 +183,24 @@ height: 48px;
 background: #36B37F;
 border-radius: 4px;
 margin: auto;
-font-family: 'Inter' sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-color: #FFFFFF;
+}
+
+.my-resume{
+  padding: 12px;
+  width: 159px;
+  height: 48px;
+background: #36B37F;
+border-radius: 4px;
+margin: auto;
+}
+.my-resume  p{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 .button p{
@@ -209,7 +221,7 @@ line-height: 52px;
 color: #172B4D;
   }
 
-  .about-me p {
+  .about-me-text p {
     font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
