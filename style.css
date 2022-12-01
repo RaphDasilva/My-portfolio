@@ -123,6 +123,63 @@ margin-top: 24px;
 justify-items: center;
 }
 
+.skills-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 37px;
+  margin: 22px;
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.skill-item {
+  height: 352px;
+width: 327px;
+border-radius: 8px;
+background: #EBF0EE;
+border: 1px solid #D0D9D4;
+justify-items: center;
+align-items: center;
+}
+
+.skill-item img{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.skill-item p{
+  font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #344563;
+}
+
+.skill-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.skill-list div{
+  font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #36B37E;
+Padding: 8px;
+text-align: center;
+background: #FFFFFF;
+border-radius: 8px;
+}
 .card-item{
   display: flex;
   justify-content: center;
