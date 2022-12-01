@@ -164,7 +164,7 @@ color: #3A4A42;
 }
 
 .skills div{
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
@@ -175,3 +175,27 @@ background: #EBF0EE;
 border-radius: 4px;
 letter-spacing: 0.03em;
 }
+
+.button{
+padding: 12px;
+width: 122px;
+height: 48px;
+background: #36B37F;
+border-radius: 4px;
+margin: auto;
+font-family: 'Inter' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.button p{
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  }
