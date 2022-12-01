@@ -118,7 +118,7 @@ margin-top: 24px;
   grid-template-rows: 1fr;
   
   margin: 22px;
-  gap: 20px;
+  grid-gap: 20px;
   
 justify-items: center;
 }
@@ -133,15 +133,45 @@ top: 0px;
 border-radius: 8px;
 background: #EBF0EE;
 border: 1px solid #D0D9D4;
-
 }
 
 .down-card {
-  height: 222px;
+  height: 220px;
 width: 327px;
 left: 0px;
 margin-top: 252px;
 border-radius: 8px;
 padding: 16px;
 text-align: center;
+background: #FFFFFF;
+border-radius: 8px;
+}
+.down-card p {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+color: #3A4A42;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.skills div{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+letter-spacing: 0.03em;
+color: #3A4A42;
+Padding: 8px;
+background: #EBF0EE;
+border-radius: 4px;
+letter-spacing: 0.03em;
 }
