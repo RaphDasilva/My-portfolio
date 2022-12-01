@@ -299,3 +299,45 @@ text-align: center;
 color: #172B4D;
 margin: 22px;
   }
+
+  form{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  input[type=text]{
+    font-family: 'Inter', sans-serif;
+    height: 48px;
+    width: 90%;
+    background: #FFFFFF;
+border: 1px solid #D0D9D4;
+border-radius: 4px;
+margin-bottom:24px ;
+padding: 12px;
+margin-left: 24px;
+margin-right: 24px;
+justify-self: center;
+  }
+
+  textarea {
+    font-family: 'Inter', sans-serif;
+    width: 90%;
+    padding: 12px;
+    background: #FFFFFF;
+    border: 1px solid #60C095;
+    border-radius: 4px;
+margin-left: 24px;
+margin-right: 24px;
+  }
+
+
+  input[type="submit"]{
+    padding: 12px;
+    width: 129px;
+    height: 48px;
+    background: #36B37F;
+border-radius: 4px;
+margin: 24px 35% 24px;
+border: 1px solid #D0D9D4;
+color: #FFFFFF;
+  }
