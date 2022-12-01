@@ -363,3 +363,25 @@ input[type="submit"] {
   color: #42526e;
   margin: 24px;
 }
+
+button:hover{
+  background: #36B37F;
+box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+border-radius: 4px;
+}
+
+.button:hover{
+  background: #36B37F;
+box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+border-radius: 4px;
+}
+
+button:active{
+  background: #008552;
+border-radius: 4px;
+}
+
+.button:active{
+  background: #008552;
+  border-radius: 4px;
+}
