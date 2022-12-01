@@ -288,3 +288,14 @@ text-align: center;
 color: #42526E;
 margin: 22px;
   }
+
+  .footer-section{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+text-align: center;
+color: #172B4D;
+margin: 22px;
+  }
