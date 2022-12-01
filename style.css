@@ -84,3 +84,39 @@
 #social-icons li a {
   text-decoration: none;
 }
+.about-work-title{
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ margin-top: 22px;
+ 
+  
+}
+.about-work-title h2{
+  width: 327px;
+  height: 97px;
+  color: #172B4D;
+  font-family: 'Inter', sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 40px;
+ line-height: 52px;
+ text-align: center;
+}
+.bar{
+  width: 48px;
+height: 4px;
+background: #36B37E;
+border-radius: 24px;
+margin-left: 134px;
+margin-top: 24px;
+ margin-bottom: 62px
+}
+.cards-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background-color: #36b37e;
+  margin: 22px;
+  gap: 20px;
+}
