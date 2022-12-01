@@ -84,3 +84,306 @@
 #social-icons li a {
   text-decoration: none;
 }
+
+.about-work-title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 22px;
+}
+
+.about-work-title h2 {
+  width: 327px;
+  height: 97px;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.bar {
+  width: 48px;
+  height: 4px;
+  background: #36b37e;
+  border-radius: 24px;
+  margin-left: 134px;
+  margin-top: 24px;
+  margin-bottom: 62px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 22px;
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 37px 22px 22px 22px;
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.skill-item {
+  height: 352px;
+  width: 327px;
+  border-radius: 8px;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-item img {
+  margin-top: 22px;
+}
+
+.skill-item h3 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 40px;
+}
+
+.skill-list div {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  padding: 8px;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.card-item {
+  display: flex;
+  justify-content: center;
+  height: 474px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+}
+
+.down-card {
+  height: 220px;
+  width: 327px;
+  left: 0;
+  margin-top: 252px;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background: #fff;
+}
+
+.down-card h3 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.skills li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  padding: 8px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.button {
+  padding: 12px;
+  width: 122px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.my-resume {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  padding: 12px;
+  width: 159px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+  margin-left: 30%;
+}
+
+.my-resume p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.button p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.about-me h2 {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.about-me-text p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 22px;
+}
+
+.footer-section {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 22px;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+}
+
+input[type=text] {
+  font-family: 'Inter', sans-serif;
+  height: 48px;
+  width: 90%;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  padding: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  justify-self: center;
+}
+
+textarea {
+  font-family: 'Inter', sans-serif;
+  width: 90%;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+input[type="submit"] {
+  padding: 12px;
+  width: 129px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  margin: 24px 35% 24px;
+  border: 1px solid #d0d9d4;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.email-container {
+  height: 189px;
+}
+
+.email-container p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin: 24px;
+}
+
+button:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:active {
+  background: #008552;
+  border-radius: 4px;
+}
+
+.button:active {
+  background: #008552;
+  border-radius: 4px;
+}
