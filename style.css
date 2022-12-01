@@ -116,7 +116,32 @@ margin-top: 24px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  background-color: #36b37e;
+  
   margin: 22px;
   gap: 20px;
+  
+justify-items: center;
+}
+
+.card-item{
+  display: flex;
+  justify-content: center;
+  height: 474px;
+width: 327px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+background: #EBF0EE;
+border: 1px solid #D0D9D4;
+
+}
+
+.down-card {
+  height: 222px;
+width: 327px;
+left: 0px;
+margin-top: 252px;
+border-radius: 8px;
+padding: 16px;
+text-align: center;
 }
