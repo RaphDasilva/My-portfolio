@@ -199,3 +199,23 @@ color: #FFFFFF;
   line-height: 24px;
   color: #FFFFFF;
   }
+  .about-me h3 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #172B4D;
+  }
+
+  .about-me p {
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+color: #42526E;
+margin: 22px;
+  }
