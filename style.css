@@ -225,6 +225,7 @@
 .skills li {
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  display:  inline-block;
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.03em;
