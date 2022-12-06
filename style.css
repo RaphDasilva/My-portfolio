@@ -349,6 +349,15 @@ input[type="submit"] {
   margin-bottom: 50px;
 }
 
+input[type="submit"]:hover {
+  background: #36b37f;
+  
+}
+
+input[type="submit"]:action {
+
+}
+
 .email-container {
   height: 189px;
 }
