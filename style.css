@@ -354,10 +354,9 @@ input[type="submit"]:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
   cursor: pointer;
-  
 }
 
-input[type="submit"] :active{
+input[type="submit"] :active {
   background: #008552;
   border-radius: 4px;
 }
