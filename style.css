@@ -33,7 +33,9 @@
   left: 3px;
   top: 6px;
 }
-
+.desktop-menu{
+  display: none;
+}
 #home {
   display: flex;
   flex-direction: column;
@@ -399,4 +401,36 @@ button:active {
 .button:active {
   background: #008552;
   border-radius: 4px;
+}
+
+@media (min-width: 768px){
+.desktop-menu{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ 
+}
+
+.desktop-menu ul {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 22px 36px 0 24px;
+}
+.desktop-menu ul li a {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #3a4a42;
+  text-decoration: none;
+}
+
+#nav-container{
+  display: none;
+}
 }
