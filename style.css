@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,body{
+  scroll-behavior: smooth;
+}
 
 #nav-container {
   display: flex;
@@ -559,7 +562,7 @@ form {
 .email-container{
   display: none;
 }
-#social-icons {
+.social-icon {
   display: flex;
   justify-content: center;
   align-content: center;
