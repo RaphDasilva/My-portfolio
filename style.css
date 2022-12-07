@@ -556,4 +556,28 @@ input[type="submit"] {
 form {
   width: 100%;
 }
+.email-container{
+  display: none;
+}
+#social-icons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 19.01px;
+  list-style: none;
+  width: 100%;
+  border-top: 1px solid #DFE1E6;
+  padding: 28.03px;
+ 
+}
+
+.footer-background{
+  width: 100%;
+  background-image: url(img/desktop-img/illustration-1-contact-form-desktop.svg),url(img/desktop-img/contact\ form-illustratoin-3-desktop--right.svg);
+  background-repeat: no-repeat;
+  background-position: center left, center right;
+  background-size:  235.78px 261.79px;
+  height:225px;
+
+}
 }
