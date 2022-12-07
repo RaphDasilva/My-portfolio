@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 #nav-container {
@@ -32,6 +38,10 @@
   height: 24px;
   left: 3px;
   top: 6px;
+}
+
+.desktop-menu {
+  display: none;
 }
 
 #home {
@@ -312,7 +322,7 @@ form {
   margin: 0 auto;
 }
 
-input[type=text] {
+.input-text {
   font-family: 'Inter', sans-serif;
   height: 48px;
   width: 90%;
@@ -399,4 +409,194 @@ button:active {
 .button:active {
   background: #008552;
   border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .desktop-menu {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 22px 36px 0 24px;
+  }
+
+  .desktop-menu ul li a {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #3a4a42;
+    text-decoration: none;
+  }
+
+  #nav-container {
+    display: none;
+  }
+
+  header {
+    background-image: url(img/desktop-img/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  #home {
+    background-image: none;
+    gap: 24px;
+  }
+
+  .second-welcome-text {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .scroll {
+    margin-top: 30px;
+    margin-bottom: 512px;
+  }
+
+  .first-welcome-text h1 {
+    margin-top: 186px;
+  }
+
+  .about-work-title h2 {
+    width: auto;
+    height: auto;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .bar {
+    display: none;
+    width: 48px;
+    height: 4px;
+    background: #36b37e;
+    border-radius: 24px;
+    margin-left: 134px;
+    margin-top: 24px;
+    margin-bottom: 62px;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    grid-gap: 20px;
+    justify-items: center;
+    padding: 0 115px 0 115px;
+    margin-top: 52px;
+  }
+
+  .about-me {
+    margin-top: 192px;
+    background-image: url(img/desktop-img/illustration-about-me-2-desktop-left.svg), url(img/desktop-img/illustration-about\ me-1-desktop-right.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left, right top;
+  }
+
+  .about-me-text {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .my-resume {
+    margin: 0;
+  }
+
+  .my-resuem-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 80%;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-section {
+    display: flex;
+    margin: 164px 142px 0 142px;
+    gap: 24;
+  }
+
+  .contact-text {
+    width: 463px;
+  }
+
+  .contact-text p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    align-items: center;
+    color: #172b4d;
+  }
+
+  .form-section {
+    width: 684px;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .input-text {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  textarea {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  input[type="submit"] {
+    margin: 24px 0 24px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .email-container {
+    display: none;
+  }
+
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 19.01px;
+    list-style: none;
+    width: 100%;
+    border-top: 1px solid #dfe1e6;
+    padding: 28.03px;
+  }
+
+  .footer-background {
+    width: 100%;
+    background-image: url(img/desktop-img/illustration-1-contact-form-desktop.svg), url(img/desktop-img/contact\ form-illustratoin-3-desktop--right.svg);
+    background-repeat: no-repeat;
+    background-position: center left, center right;
+    background-size: 235.78px 261.79px;
+    height: 225px;
+  }
 }
