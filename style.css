@@ -487,9 +487,20 @@ header{
 }
 .about-me {
   margin-top: 192px;
+  background-image: url(img/desktop-img/illustration-about-me-2-desktop-left.svg),url(img/desktop-img/illustration-about\ me-1-desktop-right.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left, right top;
 }
 .about-me-text {
    padding-left: 20%;
    padding-right: 20%;
+}
+
+.my-resume {
+  margin: 0px;
+}
+.my-resuem-btn{
+  display: flex;
+  justify-content: center;
 }
 }
