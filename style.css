@@ -475,4 +475,21 @@ header{
     margin-top: 24px;
     margin-bottom: 62px;
 }
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ margin: auto;
+  grid-gap: 20px;
+  justify-items: center;
+  padding: 0px 115px 0px 115px;
+  margin-top: 52px;
+}
+.about-me {
+  margin-top: 192px;
+}
+.about-me-text {
+   padding-left: 20%;
+   padding-right: 20%;
+}
 }
