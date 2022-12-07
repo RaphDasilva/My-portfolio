@@ -315,7 +315,7 @@ form {
   margin: 0 auto;
 }
 
-input[type=text] {
+.input-text {
   font-family: 'Inter', sans-serif;
   height: 48px;
   width: 90%;
@@ -512,5 +512,48 @@ header{
   justify-items: center;
   margin-left: auto;
   margin-right: auto;
+}
+.contact-section{
+  display: flex;
+  margin: 164px 142px 0px 142px;
+  gap: 24;
+}
+.contact-text{
+ width: 463px;
+}
+.contact-text p{
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  align-items: center;
+  color: #172B4D;
+  
+
+}
+
+.form-section{
+  width: 684px;
+  padding: 0px;
+}
+
+.input-text{
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+textarea {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+input[type="submit"] {
+  margin: 24px 0px 24px;
+}
+form {
+  width: 100%;
 }
 }
