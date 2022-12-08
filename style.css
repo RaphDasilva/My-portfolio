@@ -599,4 +599,20 @@ button:active {
     background-size: 235.78px 261.79px;
     height: 225px;
   }
+  .first-welcome-text h1 {
+    animation-duration: 3s;
+   animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 20%;
+      width: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 }
