@@ -614,15 +614,17 @@ button:active {
     }
   }
 
-  .second-welcome-text p{
+  .second-welcome-text p {
     animation-duration: 3s;
-   animation-name: second;
+    animation-name: second;
   }
+
   @keyframes second {
     from {
       margin-left: 20%;
       width: 100%;
     }
+
     to {
       margin-left: 0%;
       width: 100%;
