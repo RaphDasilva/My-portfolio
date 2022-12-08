@@ -463,10 +463,6 @@ button:active {
     margin-bottom: 512px;
   }
 
-  .first-welcome-text h1 {
-    margin-top: 186px;
-  }
-
   .about-work-title h2 {
     width: auto;
     height: auto;
@@ -599,9 +595,11 @@ button:active {
     background-size: 235.78px 261.79px;
     height: 225px;
   }
+
   .first-welcome-text h1 {
+    margin-top: 186px;
     animation-duration: 3s;
-   animation-name: slidein;
+    animation-name: slidein;
   }
 
   @keyframes slidein {
