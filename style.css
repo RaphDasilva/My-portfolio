@@ -630,4 +630,12 @@ button:active {
       width: 100%;
     }
   }
+  .card-item  {
+    transition: all 0.5s ease-out;
+  }
+
+  .card-item:hover {
+    transform: scale(0.7);
+  }
+
 }
