@@ -10,6 +10,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [Live Demo] (#live-demo)  
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -31,6 +32,7 @@ This is my Portfolio, it tells you all about me, my work experience, what i can 
 ### Tech Stack <a name="tech-stack"></a>
 
 
+
 <details>
   <summary>Client</summary>
   <ul>
@@ -39,7 +41,10 @@ This is my Portfolio, it tells you all about me, my work experience, what i can 
   </ul>
 </details>
 
+<!-- live demo -->
+## Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://RaphDasilva.github.io/My-portfolio/)
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
