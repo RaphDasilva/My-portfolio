@@ -47,9 +47,9 @@ This is my Portfolio, it tells you all about me, my work experience, what i can 
 
 - [Live Demo Link](https://RaphDasilva.github.io/My-portfolio/)
 <!-- Project Presentation -->
-## Live Demo <a name="project-presentation"></a>
+## Project Presentation <a name="project-presentation"></a>
 
-- [Project Presentation](https://www.loom.com/share/37bc35507f4b4537bbad77fff2daae76/)
+- [Project Presentation video link](https://www.loom.com/share/37bc35507f4b4537bbad77fff2daae76/)
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
