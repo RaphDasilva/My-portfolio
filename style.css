@@ -55,6 +55,15 @@ body {
   border-radius: 0 0 50px 50px;
 }
 
+.close-menu {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 30px 36px 0 0;
+  font-weight: 500;
+  color: #67798e;
+  font-size: 30px;
+  z-index: 1;
+}
 
 
 .mobile-menu-items li a {
