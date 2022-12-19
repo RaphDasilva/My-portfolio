@@ -40,6 +40,46 @@ body {
   top: 6px;
 }
 
+.mobile-menu{
+  background: #FFFFFF;
+  background-size: cover;
+  mix-blend-mode: none;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 0px 0px 50px 50px;
+}
+
+.close-menu{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 30px 36px 0 0;
+  font-weight: 500;
+  color: #67798E;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.mobile-menu-items li a{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color:  #3A4A42;;
+  line-height: 44px;
+  margin-left: 28px;
+  display: flex;
+  padding-top: 20px;
+}
+
 .desktop-menu {
   display: none;
 }
