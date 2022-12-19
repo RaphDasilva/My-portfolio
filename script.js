@@ -3,7 +3,3 @@ function openMenu() {
 }
 openMenu();
 
-function closeMenu() {
-  document.getElementById('mobile-menu').style.display = 'none';
-}
-closeMenu();
