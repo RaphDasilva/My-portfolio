@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
+    <script src="script.js"></script>
 </head>
 <body>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="close-menu" onclick="closeMenu()"><p>X</p></div>
+        <div class="mobile-menu-items">
+            <ul>
+                <li><a href="#work-section">Portfolio</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+    </div>
     <nav>
         <div id="nav-container">
             <div class="nav-item">
                 <a href="./index.html">Welcome</a>
             </div>
-            <div class="nav-item nav-item2"><img src="img/Icon - Menu.png" alt="Menu Icon"></div>
+            <div class="nav-item nav-item2"><img src="img/Icon - Menu.png" alt="Menu Icon" onclick="openMenu()"></div>
         </div>
         <div class="desktop-menu">
             <ul>
