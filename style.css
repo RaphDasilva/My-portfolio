@@ -40,6 +40,44 @@ body {
   top: 6px;
 }
 
+.hamburger-menu {
+  background: #fff;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  border-radius: 0 0 50px 50px;
+}
+
+.close-menu {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 30px 36px 0 0;
+  font-weight: 500;
+  color: #67798e;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.mobile-menu-items li a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #3a4a42;
+  line-height: 44px;
+  margin-left: 28px;
+  display: flex;
+  padding-top: 20px;
+}
+
 .desktop-menu {
   display: none;
 }
@@ -562,7 +600,7 @@ button:active {
   .contact-section {
     display: flex;
     margin: 164px 142px 0 142px;
-    gap: 24;
+    gap: 24px;
   }
 
   .contact-text {
