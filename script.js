@@ -8,54 +8,52 @@ function closeMenu() {
 }
 closeMenu();
 
-
 const recentWorks = [
-    {
-        name: "Multi-Post Stories Gain+Glory",
-        skillsDisplay: ['Ruby on rails','CSS','JavScript','html'],
-        submitButton: 'See Project',
-        upCardimg: "#!"
-    },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    submitButton: 'See Project',
+    upCardimg: '#!',
+  },
 
-    {
-        name: "Multi-Post Stories Gain+Glory",
-        skillsDisplay: ['Ruby on rails','CSS','JavScript','html'],
-        submitButton: 'See Project',
-        upCardimg: "#!"
-    },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    submitButton: 'See Project',
+    upCardimg: '#!',
+  },
 
-    {
-        name: "Multi-Post Stories Gain+Glory",
-        skillsDisplay: ['Ruby on rails','CSS','JavScript','html'],
-        submitButton: 'See Project',
-        upCardimg: "#!"
-    },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    submitButton: 'See Project',
+    upCardimg: '#!',
+  },
 
-    {
-        name: "Multi-Post Stories Gain+Glory",
-        skillsDisplay: ['Ruby on rails','CSS','JavScript','html'],
-        submitButton: 'See Project',
-        upCardimg: "#!"
-    },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    submitButton: 'See Project',
+    upCardimg: '#!',
+  },
 
-    {
-        name: "Multi-Post Stories Gain+Glory",
-        skillsDisplay: ['Ruby on rails','CSS','JavScript','html'],
-        submitButton: 'See Project',
-        upCardimg: "#!"
-    },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    submitButton: 'See Project',
+    upCardimg: '#!',
+  },
 
-    {
-        name: "Multi-Post Stories Gain+Glory",
-        skillsDisplay: ['Ruby on rails','CSS','JavScript','html'],
-        submitButton: 'See Project',
-        upCardimg: "#!"
-    }
-]
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    submitButton: 'See Project',
+    upCardimg: '#!',
+  },
+];
 
-for (let i = 0; i < recentWorks.length; i += 1){
-    let tech = '';
-  
+for (let i = 0; i < recentWorks.length; i += 1) {
+  let tech = '';
 
   for (let j = 0; j < recentWorks[i].skillsDisplay.length; j += 1) {
     tech += `<li >${recentWorks[i].skillsDisplay[j]}</li>`;
@@ -67,5 +65,5 @@ for (let i = 0; i < recentWorks.length; i += 1){
       <ul class="skills">${tech}</ul>
       <div class="button"><p>${recentWorks[i].submitButton}</p></div>
   </div>    
-</div>`
+</div>`;
 }
