@@ -19,47 +19,85 @@ function closePopUp() {
 
 closePopUp();
 
+const popUpcontainer = document.querySelector('.pop-up-layer');
+
 const recentWorks = [
   {
+    id: 1,
     name: 'Multi-Post Stories Gain+Glory',
     skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
     submitButton: 'See Project',
     upCardimg: '#!',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popImg: "img/Snapshoot Portfolio.png",
+    altImg: "recent work",
+    liveLink: "#",
+    sourceLink: "#",
   },
 
   {
+    id: 2,
     name: 'Multi-Post Stories Gain+Glory',
     skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
     submitButton: 'See Project',
     upCardimg: '#!',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popImg: "img/Snapshoot Portfolio.png",
+    altImg: "recent work",
+    liveLink: "#",
+    sourceLink: "#",
   },
 
   {
-    name: 'Multi-Post Stories Gain+Glory',
-    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    id: 3,
+    name: 'Stories Gain+Glory',
+    skillsDisplay: ['CSS', 'JavScript', 'html'],
     submitButton: 'See Project',
     upCardimg: '#!',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popImg: "img/Snapshoot Portfolio.png",
+    altImg: "recent work",
+    liveLink: "#",
+    sourceLink: "#",
   },
 
   {
+    id: 4,
     name: 'Multi-Post Stories Gain+Glory',
     skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
     submitButton: 'See Project',
     upCardimg: '#!',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popImg: "img/Snapshoot Portfolio.png",
+    altImg: "recent work",
+    liveLink: "#",
+    sourceLink: "#",
   },
 
   {
+    id: 5,
     name: 'Multi-Post Stories Gain+Glory',
     skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
     submitButton: 'See Project',
     upCardimg: '#!',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popImg: "img/Snapshoot Portfolio.png",
+    altImg: "recent work",
+    liveLink: "#",
+    sourceLink: "#",
   },
 
   {
-    name: 'Multi-Post Stories Gain+Glory',
-    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    id: 6,
+    name: 'Multi-Post ',
+    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript'],
     submitButton: 'See Project',
     upCardimg: '#!',
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    popImg: "img/Snapshoot Portfolio.png",
+    altImg: "recent work",
+    liveLink: "#",
+    sourceLink: "#",
   },
 ];
 
@@ -74,7 +112,50 @@ for (let i = 0; i < recentWorks.length; i += 1) {
   <div class="down-card">
       <h3>${recentWorks[i].name}</h3>
       <ul class="skills">${tech}</ul>
-      <div class="button" onclick="popup()"><p>${recentWorks[i].submitButton}</p></div>
+      <div data-id="${recentWorks[i].id}" class="button"><p>${recentWorks[i].submitButton}</p></div>
   </div>    
 </div>`;
+}
+
+const cardButtons = document.querySelectorAll('.button');
+cardButtons.forEach((button) => {
+  button.addEventListener('click', () =>{
+    const popUpId = parseInt(button.dataset.id, 10) - 1;
+    showPopup(popUpId);
+  })
+})
+
+function showPopup(popUpIndex){
+  const onePupUp = recentWorks[popUpIndex];
+  let list = "";
+  onePupUp.skillsDisplay.forEach((skill) => {
+    list += `<li>${skill}</li>`;
+  })
+  const popUp = `
+  <div class="main-pop-up">
+  <div class="close-pop" onclick="closePopUp()">
+      <p>X</p>
+  </div>
+  <div class="pop-img"><img src="${onePupUp.popImg}" alt="${onePupUp.altImg}" width="20%"></div>
+  <div class="pop-window">
+      <div class="pop-head-text">
+          <h3>${onePupUp.name}</h3>
+      </div>
+      <div class="pop-skills-display">
+          <ul>${list}</ul>
+      </div>
+      <div class="pop-d">
+          <p>${onePupUp.description}</p>
+      </div>
+      <div class="pop-buttons">
+          <button type="submit" class="see-live" href = "${onePupUp.liveLink}">See Live <img src="img/seeliveicon.svg"
+                  alt="see live icon"></button>
+          <button type="submit" class="see-source" href = "${onePupUp.sourceLink}">See Source <img src="img/Vector.png"
+                  alt="see Source icon"></button>
+      </div>
+  </div>
+</div>
+  `;
+  popUpcontainer.innerHTML = popUp;
+  popup();
 }
