@@ -29,10 +29,10 @@ const recentWorks = [
     submitButton: 'See Project',
     upCardimg: '#!',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: "img/Snapshoot Portfolio.png",
-    altImg: "recent work",
-    liveLink: "#",
-    sourceLink: "#",
+    popImg: 'img/Snapshoot Portfolio.png',
+    altImg: 'recent work',
+    liveLink: '#',
+    sourceLink: '#',
   },
 
   {
@@ -42,10 +42,10 @@ const recentWorks = [
     submitButton: 'See Project',
     upCardimg: '#!',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: "img/Snapshoot Portfolio.png",
-    altImg: "recent work",
-    liveLink: "#",
-    sourceLink: "#",
+    popImg: 'img/Snapshoot Portfolio.png',
+    altImg: 'recent work',
+    liveLink: '#',
+    sourceLink: '#',
   },
 
   {
@@ -55,10 +55,10 @@ const recentWorks = [
     submitButton: 'See Project',
     upCardimg: '#!',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: "img/Snapshoot Portfolio.png",
-    altImg: "recent work",
-    liveLink: "#",
-    sourceLink: "#",
+    popImg: 'img/Snapshoot Portfolio.png',
+    altImg: 'recent work',
+    liveLink: '#',
+    sourceLink: '#',
   },
 
   {
@@ -68,10 +68,10 @@ const recentWorks = [
     submitButton: 'See Project',
     upCardimg: '#!',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: "img/Snapshoot Portfolio.png",
-    altImg: "recent work",
-    liveLink: "#",
-    sourceLink: "#",
+    popImg: 'img/Snapshoot Portfolio.png',
+    altImg: 'recent work',
+    liveLink: '#',
+    sourceLink: '#',
   },
 
   {
@@ -81,10 +81,10 @@ const recentWorks = [
     submitButton: 'See Project',
     upCardimg: '#!',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: "img/Snapshoot Portfolio.png",
-    altImg: "recent work",
-    liveLink: "#",
-    sourceLink: "#",
+    popImg: 'img/Snapshoot Portfolio.png',
+    altImg: 'recent work',
+    liveLink: '#',
+    sourceLink: '#',
   },
 
   {
@@ -94,43 +94,19 @@ const recentWorks = [
     submitButton: 'See Project',
     upCardimg: '#!',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: "img/Snapshoot Portfolio.png",
-    altImg: "recent work",
-    liveLink: "#",
-    sourceLink: "#",
+    popImg: 'img/Snapshoot Portfolio.png',
+    altImg: 'recent work',
+    liveLink: '#',
+    sourceLink: '#',
   },
 ];
 
-for (let i = 0; i < recentWorks.length; i += 1) {
-  let tech = '';
-
-  for (let j = 0; j < recentWorks[i].skillsDisplay.length; j += 1) {
-    tech += `<li >${recentWorks[i].skillsDisplay[j]}</li>`;
-  }
-  document.querySelector('.cards-container').innerHTML += `<div class="card-item">
-  <div class="up-card"></div>
-  <div class="down-card">
-      <h3>${recentWorks[i].name}</h3>
-      <ul class="skills">${tech}</ul>
-      <div data-id="${recentWorks[i].id}" class="button"><p>${recentWorks[i].submitButton}</p></div>
-  </div>    
-</div>`;
-}
-
-const cardButtons = document.querySelectorAll('.button');
-cardButtons.forEach((button) => {
-  button.addEventListener('click', () =>{
-    const popUpId = parseInt(button.dataset.id, 10) - 1;
-    showPopup(popUpId);
-  })
-})
-
-function showPopup(popUpIndex){
+function showPopup(popUpIndex) {
   const onePupUp = recentWorks[popUpIndex];
-  let list = "";
+  let list = '';
   onePupUp.skillsDisplay.forEach((skill) => {
     list += `<li>${skill}</li>`;
-  })
+  });
   const popUp = `
   <div class="main-pop-up">
   <div class="close-pop" onclick="closePopUp()">
@@ -159,3 +135,27 @@ function showPopup(popUpIndex){
   popUpcontainer.innerHTML = popUp;
   popup();
 }
+
+for (let i = 0; i < recentWorks.length; i += 1) {
+  let tech = '';
+
+  for (let j = 0; j < recentWorks[i].skillsDisplay.length; j += 1) {
+    tech += `<li >${recentWorks[i].skillsDisplay[j]}</li>`;
+  }
+  document.querySelector('.cards-container').innerHTML += `<div class="card-item">
+  <div class="up-card"></div>
+  <div class="down-card">
+      <h3>${recentWorks[i].name}</h3>
+      <ul class="skills">${tech}</ul>
+      <div data-id="${recentWorks[i].id}" class="button"><p>${recentWorks[i].submitButton}</p></div>
+  </div>    
+</div>`;
+}
+
+const cardButtons = document.querySelectorAll('.button');
+cardButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const popUpId = parseInt(button.dataset.id, 10) - 1;
+    showPopup(popUpId);
+  });
+});
