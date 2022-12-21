@@ -102,12 +102,14 @@ body {
   margin-top: 20px;
   margin-right: 10px;
 }
-.close-pop{
+
+.close-pop {
   position: absolute;
- left: 308px;
- top: 55px
+  left: 308px;
+  top: 55px;
 }
-.close-pop p{
+
+.close-pop p {
   color: rgba(193, 199, 208, 0.19);
   font-weight: 500;
 }
@@ -859,33 +861,35 @@ button:active {
     z-index: 1;
     padding-bottom: 20px;
   }
-  
+
   .main-pop-up {
     padding: 16px;
     background: #fff;
     border: 1px solid #ebecf0;
     width: 920px;
     height: 1083px;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
   }
-  .close-pop{
-  background-color: rgba(193, 199, 208, 0.4);
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
-  cursor: pointer;
-  position: unset;
+
+  .close-pop {
+    background-color: rgba(193, 199, 208, 0.4);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: unset;
   }
-  .close-pop p{
-    color:#67798e;
+
+  .close-pop p {
+    color: #67798e;
     font-weight: 500;
     text-align: center;
     margin-top: 12px;
   }
-  
+
   .pop-img {
     width: 872px;
     height: 616px;
@@ -894,11 +898,11 @@ button:active {
     margin-bottom: 12px;
     margin-top: 40px;
   }
-  
+
   .pop-img img {
     display: none;
   }
-  
+
   .pop-head-text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -910,7 +914,7 @@ button:active {
     width: 589px;
     height: 82px;
   }
-  
+
   .pop-d p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -922,13 +926,13 @@ button:active {
     height: 151px;
     margin-top: 36px;
   }
-  
+
   .pop-buttons {
     display: flex;
     gap: 35px;
     margin-top: 10px;
   }
-  
+
   .see-live {
     display: flex;
     flex-direction: row;
@@ -948,7 +952,7 @@ button:active {
     line-height: 24px;
     color: #fff;
   }
-  
+
   .see-source {
     display: flex;
     flex-direction: row;
@@ -975,7 +979,7 @@ button:active {
     list-style: none;
     margin-bottom: 20px;
   }
-  
+
   .pop-skills-display ul li {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -990,11 +994,10 @@ button:active {
     border-radius: 4px;
   }
 
-  .pop-window{
+  .pop-window {
     display: grid;
     grid-template-columns: auto;
   }
-  
 }
 
 label {
