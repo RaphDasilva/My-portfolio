@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     <title>My Portfolio</title>
-    
+
 </head>
+
 <body>
     <div class="hamburger-menu" id="mobile-menu">
-        <div class="close-menu" onclick="closeMenu()"><p>X</p></div>
+        <div class="close-menu" onclick="closeMenu()">
+            <p>X</p>
+        </div>
         <div class="mobile-menu-items">
             <ul>
                 <li><a href="#work-section" onclick="closeMenu()">Portfolio</a></li>
@@ -41,11 +45,13 @@
             <div class="welcome-text first-welcome-text">
                 <h1 class="header-text">Hey there. I’m Raphael
                     <span id="color-green">
-                        I’m a software developer</span></h1>
+                        I’m a software developer</span>
+                </h1>
             </div>
             <div class="welcome-text second-welcome-text">
                 <p>
-                    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                    I can help you build a product , feature or website Look through some of my work and experience! If
+                    you like what you see and have a project you need coded,
                     don’t hestiate to contact me.
                 </p>
             </div>
@@ -64,58 +70,65 @@
     <main>
         <div class="about-work-title" id="work-section">
             <div>
-            <h2>My Recent Works</h2>
-            <div class="bar"></div>
+                <h2>My Recent Works</h2>
+                <div class="bar"></div>
             </div>
-            
+
         </div>
 
         <section>
-          <div class="cards-container" id="dyn">
-               
-          </div>
-          <!-- pop up  -->
-          <div class="pop-up-layer" id="pop-up-layer">
-            <div class="main-pop-up">
-                <div class="close-pop" onclick="closePopUp()"><p>X</p></div>
-               <div class="pop-img"><img src="img/Snapshoot Portfolio.png" alt="recent work" width="20%"></div>
-               <div class="pop-window">
-               <div class="pop-head-text"><h4>Keeping track of hundreds of
-                components</h4></div>
-               <div class="pop-skills-display">
-                <ul>
-                    <li>Ruby on rails</li>
-                    <li>css</li>
-                    <li>JavScript</li> 
-                </ul>
-               </div>
-               <div class="pop-discription">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it 1960s with the
-                     releaLorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                     Lorem Ipsum has been the industry's 
-                    standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
-               </div>
-               <div class="pop-buttons">
-                <button type="submit" class="see-live">See Live <img src="img/seeliveicon.svg" alt="see live icon"></button>
-                <button type="submit" class="see-source">See Source <img src="img/Vector.png" alt="see Source icon"></button>
-               </div>
+            <div class="cards-container" id="dyn">
+
             </div>
+            <!-- pop up  -->
+            <div class="pop-up-layer" id="pop-up-layer">
+                <div class="main-pop-up">
+                    <div class="close-pop" onclick="closePopUp()">
+                        <p>X</p>
+                    </div>
+                    <div class="pop-img"><img src="img/Snapshoot Portfolio.png" alt="recent work" width="20%"></div>
+                    <div class="pop-window">
+                        <div class="pop-head-text">
+                            <h4>Keeping track of hundreds of
+                                components</h4>
+                        </div>
+                        <div class="pop-skills-display">
+                            <ul>
+                                <li>Ruby on rails</li>
+                                <li>css</li>
+                                <li>JavScript</li>
+                            </ul>
+                        </div>
+                        <div class="pop-d">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it 1960s with the
+                                releaLorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                        </div>
+                        <div class="pop-buttons">
+                            <button type="submit" class="see-live">See Live <img src="img/seeliveicon.svg"
+                                    alt="see live icon"></button>
+                            <button type="submit" class="see-source">See Source <img src="img/Vector.png"
+                                    alt="see Source icon"></button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-         </section>
+        </section>
 
 
         <section>
             <div class="about-me" id="about-section">
                 <h2>About me</h2>
                 <div class="about-me-text">
-                 <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hestiate to contact me.</p>
-                    </div>
-                    <div class="my-resuem-btn"><button class="my-resume">Get My Resume</button></div>
+                    <p> I can help you build a product , feature or website Look through some of my work and experience!
+                        If you like what you see and have a project you need coded,
+                        don’t hestiate to contact me.</p>
+                </div>
+                <div class="my-resuem-btn"><button class="my-resume">Get My Resume</button></div>
             </div>
         </section>
 
@@ -124,61 +137,82 @@
                 <div class="skill-item">
                     <img src="img/icon-languages.svg" alt="Language">
                     <h3>Language</h3>
-                    <div class="skill-list"><div>JavScript</div><div>Ruby</div><div>html</div><div>CSS</div></div>
+                    <div class="skill-list">
+                        <div>JavScript</div>
+                        <div>Ruby</div>
+                        <div>html</div>
+                        <div>CSS</div>
+                    </div>
                 </div>
 
                 <div class="skill-item">
                     <img src="img/icon-frameworks.svg" alt="Frameworks">
                     <h3>Frameworks</h3>
-                    <div class="skill-list"><div>Bootstrap</div><div>Ruby on rails</div><div>RSpec</div><div>Capybara</div><div>Selenium</div></div>
+                    <div class="skill-list">
+                        <div>Bootstrap</div>
+                        <div>Ruby on rails</div>
+                        <div>RSpec</div>
+                        <div>Capybara</div>
+                        <div>Selenium</div>
+                    </div>
                 </div>
 
                 <div class="skill-item">
                     <img src="img/icon-skills (1).svg" alt="Skills">
                     <h3>Skills</h3>
-                    <div class="skill-list"><div>Codekit</div><div>GitHub</div><div>Codepen</div><div>Gitlab</div><div>Terminal</div></div>
+                    <div class="skill-list">
+                        <div>Codekit</div>
+                        <div>GitHub</div>
+                        <div>Codepen</div>
+                        <div>Gitlab</div>
+                        <div>Terminal</div>
+                    </div>
                 </div>
 
-        
+
             </div>
         </section>
     </main>
 
     <footer id="contact-section">
         <div class="contact-section">
-         <div class="footer-section contact-text">
-            <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-         </div>
+            <div class="footer-section contact-text">
+                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+                </p>
+            </div>
 
 
-        
-         <div class="form-section">
-          <form action="https://formspree.io/f/xdojqgbe" method="post">
-           <label for="name">name</label>
-           <input class="input-text" type="text" id="name" name="name" placeholder="Full name" maxlength="30" required>
-           <label for="email">email</label>
-            <input class="input-text"  type="email" id="email" name="email" placeholder="Email Address" required>
-            <label for="comments">enter text here</label>
-            <textarea placeholder="Enter text here" name="comments"maxlength="500" id="comments" required></textarea>
-            <input type="submit" value="Get in touch">
-            
-          </form>
-         </div> 
-        </div> 
-        <div class="footer-background"></div> 
+
+            <div class="form-section">
+                <form action="https://formspree.io/f/xdojqgbe" method="post">
+                    <label for="name">name</label>
+                    <input class="input-text" type="text" id="name" name="name" placeholder="Full name" maxlength="30"
+                        required>
+                    <label for="email">email</label>
+                    <input class="input-text" type="email" id="email" name="email" placeholder="Email Address" required>
+                    <label for="comments">enter text here</label>
+                    <textarea placeholder="Enter text here" name="comments" maxlength="500" id="comments"
+                        required></textarea>
+                    <input type="submit" value="Get in touch">
+
+                </form>
+            </div>
+        </div>
+        <div class="footer-background"></div>
         <div class="footer-icon">
-          <ul id="social-icons" class="social-icon">
-            <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
-            <li><a href="#"></a><img src="img/Linkedin icon.svg" alt="Linkedin"></a></li>
-            <li><a href="#"></a><img src="img/medium.svg" alt="medium"></a></li>
-            <li> <a href="#"></a><img src="img/github.svg" alt="github"></a></li>
-            <li><a href="#"></a><img src="img/angellist.svg" alt="angellist"></a></li>
-        </ul>
-         </div>
-          <div class="email-container">
+            <ul id="social-icons" class="social-icon">
+                <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+                <li><a href="#"></a><img src="img/Linkedin icon.svg" alt="Linkedin"></a></li>
+                <li><a href="#"></a><img src="img/medium.svg" alt="medium"></a></li>
+                <li> <a href="#"></a><img src="img/github.svg" alt="github"></a></li>
+                <li><a href="#"></a><img src="img/angellist.svg" alt="angellist"></a></li>
+            </ul>
+        </div>
+        <div class="email-container">
             <p>dasilvaz2017@gmail.com</p>
-          </div>
+        </div>
 
     </footer>
 </body>
+
 </html>
