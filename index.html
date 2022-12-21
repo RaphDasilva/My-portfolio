@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>My Portfolio</title>
-    <script src="script.js"></script>
+
 </head>
+
 <body>
     <div class="hamburger-menu" id="mobile-menu">
-        <div class="close-menu" onclick="closeMenu()"><p>X</p></div>
+        <div class="close-menu" onclick="closeMenu()">
+            <p>X</p>
+        </div>
         <div class="mobile-menu-items">
             <ul>
                 <li><a href="#work-section" onclick="closeMenu()">Portfolio</a></li>
@@ -40,11 +45,13 @@
             <div class="welcome-text first-welcome-text">
                 <h1 class="header-text">Hey there. I’m Raphael
                     <span id="color-green">
-                        I’m a software developer</span></h1>
+                        I’m a software developer</span>
+                </h1>
             </div>
             <div class="welcome-text second-welcome-text">
                 <p>
-                    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                    I can help you build a product , feature or website Look through some of my work and experience! If
+                    you like what you see and have a project you need coded,
                     don’t hestiate to contact me.
                 </p>
             </div>
@@ -63,69 +70,21 @@
     <main>
         <div class="about-work-title" id="work-section">
             <div>
-            <h2>My Recent Works</h2>
-            <div class="bar"></div>
+                <h2>My Recent Works</h2>
+                <div class="bar"></div>
             </div>
-            
+
         </div>
 
-        <section class="cards-container">
-            <div class="card-item">
-                <div class="up-card"></div>
-                <div class="down-card">
-                    <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="skills"><li>Ruby on rails</li><li>CSS</li><li>JavScript</li><li>html</li></ul>
-                    <div class="button"><p>See Project</p></div>
-                </div>    
+        <section>
+            <div class="cards-container" id="dyn">
+
+            </div>
+            <!-- pop up  -->
+            <div class="pop-up-layer" id="pop-up-layer">
+
             </div>
 
-
-            <div class="card-item">
-                
-                <div class="down-card">
-                    <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="skills"><li>Ruby on rails</li><li>CSS</li><li>JavScript</li><li>html</li></ul>
-                    <div class="button"><p>See Project</p></div>
-                </div>    
-            </div>
-
-
-            <div class="card-item">
-                
-                <div class="down-card">
-                    <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="skills"><li>Ruby on rails</li><li>CSS</li><li>JavScript</li><li>html</li></ul>
-                    <div class="button"><p>See Project</p></div>
-                </div>    
-            </div>
-
-            <div class="card-item">
-        
-                <div class="down-card">
-                    <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="skills"><li>Ruby on rails</li><li>CSS</li><li>JavScript</li><li>html</li></ul>
-                    <div class="button"><p>See Project</p></div>
-                </div>    
-            </div>
-
-
-            <div class="card-item">
-                
-                <div class="down-card">
-                    <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="skills"><li>Ruby on rails</li><li>CSS</li><li>JavScript</li><li>html</li></ul>
-                    <div class="button"><p>See Project</p></div>
-                </div>    
-            </div>
-
-            <div class="card-item">
-               
-                <div class="down-card">
-                    <h3>Multi-Post Stories Gain+Glory</h3>
-                    <ul class="skills"><li>Ruby on rails</li><li>CSS</li><li>JavScript</li><li>html</li></ul>
-                    <div class="button"><p>See Project</p></div>
-                </div>    
-            </div>
         </section>
 
 
@@ -133,10 +92,11 @@
             <div class="about-me" id="about-section">
                 <h2>About me</h2>
                 <div class="about-me-text">
-                 <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hestiate to contact me.</p>
-                    </div>
-                    <div class="my-resuem-btn"><button class="my-resume">Get My Resume</button></div>
+                    <p> I can help you build a product , feature or website Look through some of my work and experience!
+                        If you like what you see and have a project you need coded,
+                        don’t hestiate to contact me.</p>
+                </div>
+                <div class="my-resuem-btn"><button class="my-resume">Get My Resume</button></div>
             </div>
         </section>
 
@@ -145,61 +105,82 @@
                 <div class="skill-item">
                     <img src="img/icon-languages.svg" alt="Language">
                     <h3>Language</h3>
-                    <div class="skill-list"><div>JavScript</div><div>Ruby</div><div>html</div><div>CSS</div></div>
+                    <div class="skill-list">
+                        <div>JavScript</div>
+                        <div>Ruby</div>
+                        <div>html</div>
+                        <div>CSS</div>
+                    </div>
                 </div>
 
                 <div class="skill-item">
                     <img src="img/icon-frameworks.svg" alt="Frameworks">
                     <h3>Frameworks</h3>
-                    <div class="skill-list"><div>Bootstrap</div><div>Ruby on rails</div><div>RSpec</div><div>Capybara</div><div>Selenium</div></div>
+                    <div class="skill-list">
+                        <div>Bootstrap</div>
+                        <div>Ruby on rails</div>
+                        <div>RSpec</div>
+                        <div>Capybara</div>
+                        <div>Selenium</div>
+                    </div>
                 </div>
 
                 <div class="skill-item">
                     <img src="img/icon-skills (1).svg" alt="Skills">
                     <h3>Skills</h3>
-                    <div class="skill-list"><div>Codekit</div><div>GitHub</div><div>Codepen</div><div>Gitlab</div><div>Terminal</div></div>
+                    <div class="skill-list">
+                        <div>Codekit</div>
+                        <div>GitHub</div>
+                        <div>Codepen</div>
+                        <div>Gitlab</div>
+                        <div>Terminal</div>
+                    </div>
                 </div>
 
-        
+
             </div>
         </section>
     </main>
 
     <footer id="contact-section">
         <div class="contact-section">
-         <div class="footer-section contact-text">
-            <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-         </div>
+            <div class="footer-section contact-text">
+                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+                </p>
+            </div>
 
 
-        
-         <div class="form-section">
-          <form action="https://formspree.io/f/xdojqgbe" method="post">
-           <label for="name">name</label>
-           <input class="input-text" type="text" id="name" name="name" placeholder="Full name" maxlength="30" required>
-           <label for="email">email</label>
-            <input class="input-text"  type="email" id="email" name="email" placeholder="Email Address" required>
-            <label for="comments">enter text here</label>
-            <textarea placeholder="Enter text here" name="comments"maxlength="500" id="comments" required></textarea>
-            <input type="submit" value="Get in touch">
-            
-          </form>
-         </div> 
-        </div> 
-        <div class="footer-background"></div> 
+
+            <div class="form-section">
+                <form action="https://formspree.io/f/xdojqgbe" method="post">
+                    <label for="name">name</label>
+                    <input class="input-text" type="text" id="name" name="name" placeholder="Full name" maxlength="30"
+                        required>
+                    <label for="email">email</label>
+                    <input class="input-text" type="email" id="email" name="email" placeholder="Email Address" required>
+                    <label for="comments">enter text here</label>
+                    <textarea placeholder="Enter text here" name="comments" maxlength="500" id="comments"
+                        required></textarea>
+                    <input type="submit" value="Get in touch">
+
+                </form>
+            </div>
+        </div>
+        <div class="footer-background"></div>
         <div class="footer-icon">
-          <ul id="social-icons" class="social-icon">
-            <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
-            <li><a href="#"></a><img src="img/Linkedin icon.svg" alt="Linkedin"></a></li>
-            <li><a href="#"></a><img src="img/medium.svg" alt="medium"></a></li>
-            <li> <a href="#"></a><img src="img/github.svg" alt="github"></a></li>
-            <li><a href="#"></a><img src="img/angellist.svg" alt="angellist"></a></li>
-        </ul>
-         </div>
-          <div class="email-container">
+            <ul id="social-icons" class="social-icon">
+                <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+                <li><a href="#"></a><img src="img/Linkedin icon.svg" alt="Linkedin"></a></li>
+                <li><a href="#"></a><img src="img/medium.svg" alt="medium"></a></li>
+                <li> <a href="#"></a><img src="img/github.svg" alt="github"></a></li>
+                <li><a href="#"></a><img src="img/angellist.svg" alt="angellist"></a></li>
+            </ul>
+        </div>
+        <div class="email-container">
             <p>dasilvaz2017@gmail.com</p>
-          </div>
+        </div>
 
     </footer>
 </body>
+
 </html>
