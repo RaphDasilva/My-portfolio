@@ -252,9 +252,11 @@ body {
   align-content: center;
   margin-top: 22px;
 }
-.pop-skills-display .hide-pop{
+
+.pop-skills-display .hide-pop {
   display: none;
 }
+
 .about-work-title h2 {
   width: 327px;
   height: 97px;
@@ -999,27 +1001,31 @@ button:active {
     padding: 8px 12px;
     background: #ebf0ee;
     border-radius: 4px;
-    
   }
-  .pop-skills-display .hide-pop{
+
+  .pop-skills-display .hide-pop {
     display: inline;
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
+
   .pop-window {
     display: grid;
     grid-template-columns: auto;
   }
 }
-.pop-skills-display{
+
+.pop-skills-display {
   order: 3;
-    grid-column: 1/span 2;
+  grid-column: 1/span 2;
 }
-.pop-d{
+
+.pop-d {
   order: 4;
   grid-column: 1/span 2;
 }
+
 label {
   display: none;
 }

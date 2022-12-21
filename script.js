@@ -8,16 +8,16 @@ function closeMenu() {
 }
 closeMenu();
 
-function popup(){
-    document.getElementById('pop-up-layer').style.display = 'flex';
+function popup() {
+  document.getElementById('pop-up-layer').style.display = 'flex';
 }
 popup();
 
-function closePopUp(){
-    document.getElementById('pop-up-layer').style.display = 'none';
+function closePopUp() {
+  document.getElementById('pop-up-layer').style.display = 'none';
 }
 
-closePopUp()
+closePopUp();
 
 const recentWorks = [
   {
