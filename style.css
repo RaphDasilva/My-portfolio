@@ -875,12 +875,9 @@ button:active {
   background-color: rgba(193, 199, 208, 0.4);
   width: 40px;
   height: 40px;
-  right: 24px;
   border-radius: 8px;
-  margin-left: 840px;
-  position: absolute;
-  top: 30px;
   cursor: pointer;
+  position: unset;
   }
   .close-pop p{
     color:#67798e;
@@ -930,9 +927,6 @@ button:active {
     display: flex;
     gap: 35px;
     margin-top: 10px;
-    position: absolute;
-    top: 700px;
-    left: 840px;
   }
   
   .see-live {
@@ -994,6 +988,11 @@ button:active {
     padding: 8px 12px;
     background: #ebf0ee;
     border-radius: 4px;
+  }
+
+  .pop-window{
+    display: grid;
+    grid-template-columns: auto;
   }
   
 }
