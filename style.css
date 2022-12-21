@@ -252,7 +252,9 @@ body {
   align-content: center;
   margin-top: 22px;
 }
-
+.pop-skills-display .hide-pop{
+  display: none;
+}
 .about-work-title h2 {
   width: 327px;
   height: 97px;
@@ -425,6 +427,9 @@ body {
   padding: 8px 12px;
   background: #ebf0ee;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .my-resume {
@@ -881,13 +886,16 @@ button:active {
     border-radius: 8px;
     cursor: pointer;
     position: unset;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
   }
 
   .close-pop p {
     color: #67798e;
     font-weight: 500;
     text-align: center;
-    margin-top: 12px;
   }
 
   .pop-img {
@@ -896,7 +904,7 @@ button:active {
     background-image: url('img/Container/SnapshootPortfolio.png');
     border-radius: 8px;
     margin-bottom: 12px;
-    margin-top: 40px;
+    margin-top: 14px;
   }
 
   .pop-img img {
@@ -911,8 +919,8 @@ button:active {
     line-height: 44px;
     color: #172b4d;
     margin-bottom: 12px;
-    width: 589px;
     height: 82px;
+    order: 1;
   }
 
   .pop-d p {
@@ -929,8 +937,9 @@ button:active {
 
   .pop-buttons {
     display: flex;
-    gap: 35px;
+    gap: 12px;
     margin-top: 10px;
+    order: 2;
   }
 
   .see-live {
@@ -975,15 +984,13 @@ button:active {
   .pop-skills-display ul {
     display: flex;
     align-content: center;
-    gap: 20px;
+    gap: 8px;
     list-style: none;
-    margin-bottom: 20px;
   }
 
   .pop-skills-display ul li {
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    width: 98px;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
@@ -992,14 +999,27 @@ button:active {
     padding: 8px 12px;
     background: #ebf0ee;
     border-radius: 4px;
+    
   }
-
+  .pop-skills-display .hide-pop{
+    display: inline;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  }
   .pop-window {
     display: grid;
     grid-template-columns: auto;
   }
 }
-
+.pop-skills-display{
+  order: 3;
+    grid-column: 1/span 2;
+}
+.pop-d{
+  order: 4;
+  grid-column: 1/span 2;
+}
 label {
   display: none;
 }
