@@ -8,6 +8,17 @@ function closeMenu() {
 }
 closeMenu();
 
+function popup(){
+    document.getElementById('pop-up-layer').style.display = 'flex';
+}
+popup();
+
+function closePopUp(){
+    document.getElementById('pop-up-layer').style.display = 'none';
+}
+
+closePopUp()
+
 const recentWorks = [
   {
     name: 'Multi-Post Stories Gain+Glory',
@@ -63,7 +74,7 @@ for (let i = 0; i < recentWorks.length; i += 1) {
   <div class="down-card">
       <h3>${recentWorks[i].name}</h3>
       <ul class="skills">${tech}</ul>
-      <div class="button"><p>${recentWorks[i].submitButton}</p></div>
+      <div class="button" onclick="popup()"><p>${recentWorks[i].submitButton}</p></div>
   </div>    
 </div>`;
 }
