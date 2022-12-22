@@ -504,7 +504,8 @@ form {
   margin: 0 auto;
 }
 
-#name, #email {
+#name,
+#email {
   font-family: 'Inter', sans-serif;
   height: 48px;
   width: 90%;
