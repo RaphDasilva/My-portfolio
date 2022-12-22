@@ -104,14 +104,16 @@ body {
 }
 
 .close-pop {
-  position: absolute;
-  left: 308px;
-  top: 55px;
+ display: flex;
+ justify-content: flex-end;
+ width: 95%;
 }
 
 .close-pop p {
-  color: rgba(193, 199, 208, 0.19);
+  color: #67798E;
   font-weight: 500;
+  font-size: 34px;
+  margin-left: 20px;
 }
 
 .pop-img {
