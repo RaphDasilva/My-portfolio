@@ -185,3 +185,9 @@ inputText.forEach((input) => {
     localStorage.setItem('everyData', JSON.stringify(dataStored));
   });
 });
+const formStored = JSON.parse(localStorage.getItem('everyData'));
+if (formStored) {
+  inputText.forEach((element) => {
+    element.value = formStored[element.name];
+  });
+}
