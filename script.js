@@ -178,6 +178,7 @@ const inputText = document.querySelectorAll('.input-text');
 const dataStored = {
   name: '',
   email: '',
+  comments: ''
 };
 inputText.forEach((input) => {
   input.addEventListener('input', () => {

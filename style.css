@@ -504,7 +504,7 @@ form {
   margin: 0 auto;
 }
 
-.input-text {
+#name, #email {
   font-family: 'Inter', sans-serif;
   height: 48px;
   width: 90%;
@@ -518,7 +518,7 @@ form {
   justify-self: center;
 }
 
-textarea {
+#comments {
   font-family: 'Inter', sans-serif;
   width: 90%;
   padding: 12px;
@@ -783,7 +783,7 @@ button:active {
     margin-right: 0;
   }
 
-  textarea {
+  #comments {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
