@@ -161,6 +161,7 @@ cardButtons.forEach((button) => {
 });
 
 // form validation
+
 const email = document.getElementById('email');
 const errorMsg = document.querySelector('.error-display');
 const form = document.querySelector('#form-contact');
@@ -170,3 +171,12 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+// STORE VALUES LOCALLY
+
+const inputText = document.querySelectorAll('.input-text');
+const dataStored = {
+  name: '',
+  email: '',
+};
+
