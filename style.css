@@ -104,13 +104,13 @@ body {
 }
 
 .close-pop {
- display: flex;
- justify-content: flex-end;
- width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
 }
 
 .close-pop p {
-  color: #67798E;
+  color: #67798e;
   font-weight: 500;
   font-size: 34px;
   margin-left: 20px;
