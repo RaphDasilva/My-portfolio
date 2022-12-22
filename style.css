@@ -594,12 +594,12 @@ button:active {
 }
 
 .error-display {
-  color: #FFFFFF;
+  color: #fff;
   font-size: small;
   display: none;
   padding: 10px 10px;
   text-align: center;
-  background-color: #FF6163;
+  background-color: #ff6163;
   border-radius: 4px;
 }
 
