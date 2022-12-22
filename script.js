@@ -159,3 +159,14 @@ cardButtons.forEach((button) => {
     showPopup(popUpId);
   });
 });
+
+// form validation
+const email = document.getElementById('email');
+const errorMsg = document.querySelector('.error-display');
+const form = document.querySelector('#form-contact');
+form.addEventListener('submit', (event) => {
+  if (email.value.toLowerCase() !== email.value) {
+    errorMsg.style.display = 'block';
+    event.preventDefault();
+  }
+});

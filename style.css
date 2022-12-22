@@ -593,6 +593,16 @@ button:active {
   border-radius: 4px;
 }
 
+.error-display {
+  color: #fff;
+  font-size: small;
+  display: none;
+  padding: 10px 10px;
+  text-align: center;
+  background-color: #ff6163;
+  border-radius: 4px;
+}
+
 @media (min-width: 768px) {
   .desktop-menu {
     padding: 0;
