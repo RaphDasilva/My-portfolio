@@ -190,7 +190,7 @@ inputText.forEach((input) => {
 });
 const formStored = JSON.parse(localStorage.getItem('everyData'));
 if (formStored) {
-  inputText.forEach((element) => {
+  inputText.forEach((element) = {
     element.value = formStored[element.name];
   });
 }
