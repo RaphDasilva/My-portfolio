@@ -161,6 +161,7 @@ cardButtons.forEach((button) => {
 });
 
 // form validation
+
 const email = document.getElementById('email');
 const errorMsg = document.querySelector('.error-display');
 const form = document.querySelector('#form-contact');
@@ -170,3 +171,26 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+// STORE VALUES LOCALLY
+
+const inputText = document.querySelectorAll('.input-text');
+const dataStored = {
+  name: '',
+  email: '',
+  comments: '',
+};
+inputText.forEach((input) => {
+  input.addEventListener('input', () => {
+    dataStored[input.name] = input.value;
+    dataStored[input.email] = input.value;
+    dataStored[input.comments] = input.value;
+    localStorage.setItem('everyData', JSON.stringify(dataStored));
+  });
+});
+const formStored = JSON.parse(localStorage.getItem('everyData'));
+if (formStored) {
+  inputText.forEach((element) => {
+    element.value = formStored[element.name];
+  });
+}
