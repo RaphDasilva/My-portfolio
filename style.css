@@ -117,15 +117,16 @@ body {
 }
 
 .pop-img {
-  width: 311px;
-  height: 220px;
+  width: 90%;
+  height: auto;
   border-radius: 8px;
+  border: solid 1px #172b4d;
   margin: auto;
   margin-bottom: 12px;
 }
 
 .pop-img img {
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -351,25 +352,31 @@ body {
 
 .card-item {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 474px;
-  width: 327px;
-  left: 0;
-  top: 0;
+  width: 80%;
   border-radius: 8px;
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
 }
 
 .down-card {
-  height: 220px;
-  width: 327px;
+  height: 50%;
+  width: 100%;
   left: 0;
-  margin-top: 252px;
+  /* margin-top: 252px; */
   border-radius: 8px;
   padding: 16px;
   text-align: center;
   background: #fff;
+}
+
+.up-card {
+  height: 50%;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .down-card h3 {
@@ -915,15 +922,14 @@ button:active {
   .pop-img {
     width: 872px;
     height: 616px;
-    background-image: url('img/Container/SnapshootPortfolio.png');
     border-radius: 8px;
     margin-bottom: 12px;
     margin-top: 14px;
   }
 
-  .pop-img img {
+  /* .pop-img img {
     display: none;
-  }
+  } */
 
   .pop-head-text {
     font-family: 'Inter', sans-serif;

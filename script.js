@@ -24,80 +24,54 @@ const popUpcontainer = document.querySelector('.pop-up-layer');
 const recentWorks = [
   {
     id: 1,
-    name: 'Multi-Post Stories Gain+Glory',
-    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    name: 'My portfolio',
+    skillsDisplay: ['HTML', 'JavScript', 'CSS'],
     submitButton: 'See Project',
-    upCardimg: '#!',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: 'img/Snapshoot Portfolio.png',
-    altImg: 'recent work',
-    liveLink: '#',
-    sourceLink: '#',
+    upCardimg: 'img/projects/portfolio.png',
+    description: "This's a site that showcases all the projects that I have done so far. It displays my means of contact, my experiences, and also interesting facts about me, it was built with HTML, CSS and JavaScript",
+    popImg: 'img/projects/portfolio.png',
+    altImg: 'My Portfolio',
+    liveLink: 'https://raphdasilva.github.io/My-portfolio/',
+    sourceLink: 'https://github.com/RaphDasilva/My-portfolio',
   },
 
   {
     id: 2,
-    name: 'Multi-Post Stories Gain+Glory',
-    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    name: 'Abuja Annual Dance Festival',
+    skillsDisplay: ['CSS', 'JavScript', 'HTML'],
     submitButton: 'See Project',
-    upCardimg: '#!',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: 'img/Snapshoot Portfolio.png',
+    upCardimg: 'img/projects/festival.png',
+    description: 'This is a project which highlights Abuja annual dance festival event scheduled to take place 2023 and it was built using HTML, CSS, and JavaScript.',
+    popImg: 'img/projects/festival.png',
     altImg: 'recent work',
-    liveLink: '#',
-    sourceLink: '#',
+    liveLink: './https://github.com/RaphDasilva/Abuja-Annual-Dance-',
+    sourceLink: './https://raphdasilva.github.io/Abuja-Annual-Dance-/',
   },
 
   {
     id: 3,
-    name: 'Stories Gain+Glory',
+    name: 'To do list',
     skillsDisplay: ['CSS', 'JavScript', 'html'],
     submitButton: 'See Project',
-    upCardimg: '#!',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: 'img/Snapshoot Portfolio.png',
+    upCardimg: 'img/projects/Todo.png',
+    description: 'This a site that helps you to organize your everyday activities. You simply add, remove, Mark Completed, and Edith the things that you need to do for the day. This was created by making use of HTML, CSS, JavaScript, ES6, and Webpack!',
+    popImg: 'img/projects/Todo.png',
     altImg: 'recent work',
-    liveLink: '#',
-    sourceLink: '#',
+    liveLink: 'https://raphdasilva.github.io/To-do-list/dist',
+    sourceLink: 'https://github.com/RaphDasilva/To-do-list  ',
   },
 
   {
     id: 4,
-    name: 'Multi-Post Stories Gain+Glory',
-    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
+    name: 'Awesome book',
+    skillsDisplay: ['CSS', 'JavScript', 'html'],
     submitButton: 'See Project',
-    upCardimg: '#!',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: 'img/Snapshoot Portfolio.png',
+    upCardimg: 'img/projects/AwesomeBook.png',
+    description: 'Awesome Books is a simple website that displays a list of books and their authors. These books can be dynamically added and removed from the list, it was build with JavaScript, HTML, and CSS.',
+    popImg: 'img/projects/AwesomeBook.png',
     altImg: 'recent work',
-    liveLink: '#',
-    sourceLink: '#',
-  },
-
-  {
-    id: 5,
-    name: 'Multi-Post Stories Gain+Glory',
-    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript', 'html'],
-    submitButton: 'See Project',
-    upCardimg: '#!',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: 'img/Snapshoot Portfolio.png',
-    altImg: 'recent work',
-    liveLink: '#',
-    sourceLink: '#',
-  },
-
-  {
-    id: 6,
-    name: 'Multi-Post ',
-    skillsDisplay: ['Ruby on rails', 'CSS', 'JavScript'],
-    submitButton: 'See Project',
-    upCardimg: '#!',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    popImg: 'img/Snapshoot Portfolio.png',
-    altImg: 'recent work',
-    liveLink: '#',
-    sourceLink: '#',
+    liveLink: 'https://raphdasilva.github.io/Awesome-books/',
+    sourceLink: 'https://github.com/RaphDasilva/Awesome-book-ES6',
   },
 ];
 
@@ -112,7 +86,7 @@ function showPopup(popUpIndex) {
   <div class="close-pop" onclick="closePopUp()">
       <p>X</p>
   </div>
-  <div class="pop-img"><img src="${onePupUp.popImg}" alt="${onePupUp.altImg}" width="20%"></div>
+  <div class="pop-img"><img src="${onePupUp.popImg}" alt="${onePupUp.altImg}" width="100%"></div>
   <div class="pop-window">
       <div class="pop-head-text">
           <h3>${onePupUp.name}</h3>
@@ -124,10 +98,8 @@ function showPopup(popUpIndex) {
           <p>${onePupUp.description}</p>
       </div>
       <div class="pop-buttons">
-          <button type="submit" class="see-live" href = "${onePupUp.liveLink}">See Live <img src="img/seeliveicon.svg"
-                  alt="see live icon"></button>
-          <button type="submit" class="see-source" href = "${onePupUp.sourceLink}">See Source <img src="img/Vector.png"
-                  alt="see Source icon"></button>
+          <button type="submit" class="see-live" href = "${onePupUp.liveLink}">See Live <img src="img/seeliveicon.svg" alt="see live icon"></button>
+          <button type="submit" class="see-source" href = "${onePupUp.sourceLink}">See Source <img src="img/Vector.png" alt="see Source icon"></button>
       </div>
   </div>
 </div>
@@ -143,7 +115,7 @@ for (let i = 0; i < recentWorks.length; i += 1) {
     tech += `<li >${recentWorks[i].skillsDisplay[j]}</li>`;
   }
   document.querySelector('.cards-container').innerHTML += `<div class="card-item">
-  <div class="up-card"></div>
+  <div class="up-card"><img src = "${recentWorks[i].upCardimg}" alt = "my portfolio" width = "100%"></div>
   <div class="down-card">
       <h3>${recentWorks[i].name}</h3>
       <ul class="skills">${tech}</ul>
