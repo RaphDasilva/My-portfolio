@@ -927,10 +927,10 @@ button:active {
     margin-top: 14px;
   }
 
-  /* .pop-img img {
-    display: none;
-  } */
-
+  a {
+    text-decoration: none;
+  }
+   
   .pop-head-text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
