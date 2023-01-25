@@ -10,6 +10,10 @@ body {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
 #nav-container {
   display: flex;
   justify-content: space-between;
@@ -366,6 +370,7 @@ body {
   height: 50%;
   width: 100%;
   left: 0;
+
   /* margin-top: 252px; */
   border-radius: 8px;
   padding: 16px;
@@ -927,10 +932,6 @@ button:active {
     margin-top: 14px;
   }
 
-  a {
-    text-decoration: none;
-  }
-   
   .pop-head-text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
