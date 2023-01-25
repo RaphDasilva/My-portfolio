@@ -98,8 +98,8 @@ function showPopup(popUpIndex) {
           <p>${onePupUp.description}</p>
       </div>
       <div class="pop-buttons">
-          <button type="submit" class="see-live" href = "${onePupUp.liveLink}">See Live <img src="img/seeliveicon.svg" alt="see live icon"></button>
-          <button type="submit" class="see-source" href = "${onePupUp.sourceLink}">See Source <img src="img/Vector.png" alt="see Source icon"></button>
+          <a href = "${onePupUp.liveLink}"><button type="submit" class="see-live" >See Live <img src="img/seeliveicon.svg" alt="see live icon"></button></a>
+          <a  href = "${onePupUp.sourceLink}"><button type="submit" class="see-source">See Source <img src="img/Vector.png" alt="see Source icon"></button></a>
       </div>
   </div>
 </div>
