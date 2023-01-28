@@ -691,7 +691,7 @@ button:active {
 
   .cards-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: auto;
     grid-gap: 20px;
     justify-items: center;
@@ -869,7 +869,6 @@ button:active {
   .card-item,
   .skill-item {
     transition: all 0.5s ease-out;
-    
   }
 
   .card-item:hover,
