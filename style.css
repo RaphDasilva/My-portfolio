@@ -10,6 +10,10 @@ body {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
 #nav-container {
   display: flex;
   justify-content: space-between;
@@ -117,15 +121,16 @@ body {
 }
 
 .pop-img {
-  width: 311px;
-  height: 220px;
+  width: 90%;
+  height: auto;
   border-radius: 8px;
+  border: solid 1px #172b4d;
   margin: auto;
   margin-bottom: 12px;
 }
 
 .pop-img img {
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -351,25 +356,32 @@ body {
 
 .card-item {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 474px;
-  width: 327px;
-  left: 0;
-  top: 0;
+  width: 80%;
   border-radius: 8px;
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
 }
 
 .down-card {
-  height: 220px;
-  width: 327px;
+  height: 50%;
+  width: 100%;
   left: 0;
-  margin-top: 252px;
+
+  /* margin-top: 252px; */
   border-radius: 8px;
   padding: 16px;
   text-align: center;
   background: #fff;
+}
+
+.up-card {
+  height: 50%;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .down-card h3 {
@@ -684,7 +696,6 @@ button:active {
     margin: auto;
     grid-gap: 20px;
     justify-items: center;
-    padding: 0 115px 0 115px;
     margin-top: 52px;
   }
 
@@ -743,13 +754,12 @@ button:active {
   }
 
   .skills-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    gap: 20px;
     width: 80%;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
   }
 
   .contact-section {
@@ -916,14 +926,9 @@ button:active {
   .pop-img {
     width: 872px;
     height: 616px;
-    background-image: url('img/Container/SnapshootPortfolio.png');
     border-radius: 8px;
     margin-bottom: 12px;
     margin-top: 14px;
-  }
-
-  .pop-img img {
-    display: none;
   }
 
   .pop-head-text {
