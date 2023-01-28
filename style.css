@@ -691,11 +691,10 @@ button:active {
 
   .cards-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     margin: auto;
     grid-gap: 20px;
     justify-items: center;
-    padding: 0 115px 0 115px;
     margin-top: 52px;
   }
 
@@ -754,13 +753,12 @@ button:active {
   }
 
   .skills-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    gap: 20px;
     width: 80%;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
   }
 
   .contact-section {
@@ -871,6 +869,7 @@ button:active {
   .card-item,
   .skill-item {
     transition: all 0.5s ease-out;
+    
   }
 
   .card-item:hover,
